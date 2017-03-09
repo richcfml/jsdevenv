@@ -57,3 +57,20 @@ Some of the available options are localtunnel, ngrok, surge and now.
 
 # Builds
     There are many options here but we will be using webpack as the build tool per the selection of the course
+
+# Linter
+    There are many options here but ESLint is the one choose for this course
+    - Config format
+    - Which built-in rules to enable
+    - Warning or Errors
+    - Which plugins
+    - Use preset?
+    - Use eslint-watch
+
+# Testing
+    Unit testing
+    We are going to use Mocha as the testing framework
+    We are going to use Chai as the assertion library
+    We are going to use JSDOM as a helper library (Cheerio is another helper for JQUERY)
+    The test files will be placed alongside the code
+    The test should be run everytime the code file is saved
